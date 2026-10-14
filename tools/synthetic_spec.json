@@ -213,6 +213,17 @@
       "value": 1
     },
     {
+      "nameId": 801,
+      "name": "CAPTIONFONT",
+      "typeId": 210,
+      "typeName": "FONT",
+      "classId": 0,
+      "className": "Button",
+      "partId": 1,
+      "stateId": 0,
+      "value": 501
+    },
+    {
       "nameId": 3801,
       "name": "BORDERCOLOR",
       "typeId": 204,

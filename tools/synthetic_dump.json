@@ -1,9 +1,9 @@
 ﻿{
   "formatVersion": 4,
   "file": "synthetic.msstyles",
-  "fullPath": "d:\\AntiGravity\\msstyleEditor\\tools\\synthetic.msstyles",
+  "fullPath": "D:\\AntiGravity\\msstyleEditor\\tools\\synthetic.msstyles",
   "platform": "Win11",
-  "numProperties": 28,
+  "numProperties": 29,
   "imageResources": [
     101,
     102,
@@ -15,7 +15,10 @@
     1
   ],
   "stringTables": {
-},
+    "1033": {
+      "501": "Arial, 10, bold"
+    }
+  },
   "atlasEntries": [
     {
       "classId": 1,
@@ -75,6 +78,17 @@
               "stateId": 0,
               "stateName": "Common",
               "properties": [
+                {
+                  "nameId": 801,
+                  "name": "CAPTIONFONT",
+                  "typeId": 210,
+                  "typeName": "FONT",
+                  "shortFlag": 501,
+                  "sizeInBytes": 0,
+                  "value": {
+                    "fontId": 501
+                  }
+                },
                 {
                   "nameId": 2201,
                   "name": "TRANSPARENT",

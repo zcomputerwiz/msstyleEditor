@@ -385,6 +385,7 @@ def generate_synthetic_style(out_dll_path, out_json_spec_path):
     add_prop(3003, "IMAGEFILE2", 206, "FILENAME", 0, 1, 0, 105) # IMAGE 105 (144 DPI)
     add_prop(4012, "IMAGESELECTTYPE", 200, "ENUM", 0, 1, 0, 2) # DPI
     add_prop(4014, "TRUESIZESCALINGTYPE", 200, "ENUM", 0, 1, 0, 1) # DPI
+    add_prop(801, "CAPTIONFONT", 210, "FONT", 0, 1, 0, 501) # String 501
 
     # Part 1: PUSHBUTTON, State 1 (NORMAL)
     add_prop(3801, "BORDERCOLOR", 204, "COLOR", 0, 1, 1, (50, 60, 70))
@@ -448,6 +449,17 @@ def generate_synthetic_style(out_dll_path, out_json_spec_path):
 
     # 5. AMAP resource (empty animation map for Win8+)
     builder.add_resource("AMAP", "AMAP", 1033, b"")
+
+    # 6. RT_STRING resource: block 32 (ID 32), containing string 501 at index 5
+    str_out = bytearray()
+    font_str = "Arial, 10, bold"
+    for i in range(16):
+        if i == 5:
+            str_out.extend(len(font_str).to_bytes(2, "little"))
+            str_out.extend(font_str.encode("utf-16le"))
+        else:
+            str_out.extend((0).to_bytes(2, "little"))
+    builder.add_resource(6, 32, 1033, bytes(str_out))
 
     pe_bytes = builder.build_pe_dll()
 
