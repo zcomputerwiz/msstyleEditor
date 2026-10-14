@@ -1,0 +1,380 @@
+{
+  "classes": [
+    "Button",
+    "Window",
+    "Edit",
+    "ScrollBar",
+    "DarkMode::TaskManager"
+  ],
+  "properties": [
+    {
+      "nameId": 4001,
+      "name": "BGTYPE",
+      "typeId": 200,
+      "typeName": "ENUM",
+      "classId": 0,
+      "className": "Button",
+      "partId": 1,
+      "stateId": 0,
+      "value": 0
+    },
+    {
+      "nameId": 4004,
+      "name": "SIZINGTYPE",
+      "typeId": 200,
+      "typeName": "ENUM",
+      "classId": 0,
+      "className": "Button",
+      "partId": 1,
+      "stateId": 0,
+      "value": 1
+    },
+    {
+      "nameId": 2403,
+      "name": "BORDERSIZE",
+      "typeId": 202,
+      "typeName": "INT",
+      "classId": 0,
+      "className": "Button",
+      "partId": 1,
+      "stateId": 0,
+      "value": 2
+    },
+    {
+      "nameId": 2201,
+      "name": "TRANSPARENT",
+      "typeId": 203,
+      "typeName": "BOOL",
+      "classId": 0,
+      "className": "Button",
+      "partId": 1,
+      "stateId": 0,
+      "value": true
+    },
+    {
+      "nameId": 3801,
+      "name": "BORDERCOLOR",
+      "typeId": 204,
+      "typeName": "COLOR",
+      "classId": 0,
+      "className": "Button",
+      "partId": 1,
+      "stateId": 0,
+      "value": [
+        10,
+        20,
+        30
+      ]
+    },
+    {
+      "nameId": 3802,
+      "name": "FILLCOLOR",
+      "typeId": 204,
+      "typeName": "COLOR",
+      "classId": 0,
+      "className": "Button",
+      "partId": 1,
+      "stateId": 0,
+      "value": [
+        240,
+        240,
+        240
+      ]
+    },
+    {
+      "nameId": 3803,
+      "name": "TEXTCOLOR",
+      "typeId": 204,
+      "typeName": "COLOR",
+      "classId": 0,
+      "className": "Button",
+      "partId": 1,
+      "stateId": 0,
+      "value": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "nameId": 3601,
+      "name": "SIZINGMARGINS",
+      "typeId": 205,
+      "typeName": "MARGINS",
+      "classId": 0,
+      "className": "Button",
+      "partId": 1,
+      "stateId": 0,
+      "value": [
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "nameId": 3602,
+      "name": "CONTENTMARGINS",
+      "typeId": 205,
+      "typeName": "MARGINS",
+      "classId": 0,
+      "className": "Button",
+      "partId": 1,
+      "stateId": 0,
+      "value": [
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "nameId": 3401,
+      "name": "OFFSET",
+      "typeId": 208,
+      "typeName": "POSITION",
+      "classId": 0,
+      "className": "Button",
+      "partId": 1,
+      "stateId": 0,
+      "value": [
+        1,
+        1
+      ]
+    },
+    {
+      "nameId": 6000,
+      "name": "TRANSITIONDURATIONS",
+      "typeId": 211,
+      "typeName": "INTLIST",
+      "classId": 0,
+      "className": "Button",
+      "partId": 1,
+      "stateId": 0,
+      "value": [
+        100,
+        200,
+        300
+      ]
+    },
+    {
+      "nameId": 3001,
+      "name": "IMAGEFILE",
+      "typeId": 206,
+      "typeName": "FILENAME",
+      "classId": 0,
+      "className": "Button",
+      "partId": 1,
+      "stateId": 0,
+      "value": 101
+    },
+    {
+      "nameId": 3002,
+      "name": "IMAGEFILE1",
+      "typeId": 206,
+      "typeName": "FILENAME",
+      "classId": 0,
+      "className": "Button",
+      "partId": 1,
+      "stateId": 0,
+      "value": 104
+    },
+    {
+      "nameId": 3003,
+      "name": "IMAGEFILE2",
+      "typeId": 206,
+      "typeName": "FILENAME",
+      "classId": 0,
+      "className": "Button",
+      "partId": 1,
+      "stateId": 0,
+      "value": 105
+    },
+    {
+      "nameId": 4012,
+      "name": "IMAGESELECTTYPE",
+      "typeId": 200,
+      "typeName": "ENUM",
+      "classId": 0,
+      "className": "Button",
+      "partId": 1,
+      "stateId": 0,
+      "value": 2
+    },
+    {
+      "nameId": 4014,
+      "name": "TRUESIZESCALINGTYPE",
+      "typeId": 200,
+      "typeName": "ENUM",
+      "classId": 0,
+      "className": "Button",
+      "partId": 1,
+      "stateId": 0,
+      "value": 1
+    },
+    {
+      "nameId": 3801,
+      "name": "BORDERCOLOR",
+      "typeId": 204,
+      "typeName": "COLOR",
+      "classId": 0,
+      "className": "Button",
+      "partId": 1,
+      "stateId": 1,
+      "value": [
+        50,
+        60,
+        70
+      ]
+    },
+    {
+      "nameId": 3001,
+      "name": "IMAGEFILE",
+      "typeId": 206,
+      "typeName": "FILENAME",
+      "classId": 0,
+      "className": "Button",
+      "partId": 1,
+      "stateId": 1,
+      "value": 101
+    },
+    {
+      "nameId": 3801,
+      "name": "BORDERCOLOR",
+      "typeId": 204,
+      "typeName": "COLOR",
+      "classId": 0,
+      "className": "Button",
+      "partId": 1,
+      "stateId": 2,
+      "value": [
+        255,
+        128,
+        0
+      ]
+    },
+    {
+      "nameId": 3001,
+      "name": "IMAGEFILE",
+      "typeId": 206,
+      "typeName": "FILENAME",
+      "classId": 0,
+      "className": "Button",
+      "partId": 1,
+      "stateId": 2,
+      "value": 102
+    },
+    {
+      "nameId": 3801,
+      "name": "BORDERCOLOR",
+      "typeId": 204,
+      "typeName": "COLOR",
+      "classId": 0,
+      "className": "Button",
+      "partId": 1,
+      "stateId": 3,
+      "value": [
+        0,
+        128,
+        255
+      ]
+    },
+    {
+      "nameId": 3001,
+      "name": "IMAGEFILE",
+      "typeId": 206,
+      "typeName": "FILENAME",
+      "classId": 0,
+      "className": "Button",
+      "partId": 1,
+      "stateId": 3,
+      "value": 103
+    },
+    {
+      "nameId": 8000,
+      "name": "ATLASIMAGE",
+      "typeId": 213,
+      "typeName": "DISKSTREAM",
+      "classId": 1,
+      "className": "Window",
+      "partId": 1,
+      "stateId": 1,
+      "value": 1
+    },
+    {
+      "nameId": 8001,
+      "name": "ATLASINPUTIMAGE",
+      "typeId": 201,
+      "typeName": "STRING",
+      "classId": 1,
+      "className": "Window",
+      "partId": 1,
+      "stateId": 1,
+      "value": "test_atlas.png"
+    },
+    {
+      "nameId": 8002,
+      "name": "ATLASRECT",
+      "typeId": 209,
+      "typeName": "RECT",
+      "classId": 1,
+      "className": "Window",
+      "partId": 1,
+      "stateId": 1,
+      "value": [
+        0,
+        0,
+        16,
+        16
+      ]
+    },
+    {
+      "nameId": 8000,
+      "name": "ATLASIMAGE",
+      "typeId": 213,
+      "typeName": "DISKSTREAM",
+      "classId": 1,
+      "className": "Window",
+      "partId": 1,
+      "stateId": 2,
+      "value": 1
+    },
+    {
+      "nameId": 8001,
+      "name": "ATLASINPUTIMAGE",
+      "typeId": 201,
+      "typeName": "STRING",
+      "classId": 1,
+      "className": "Window",
+      "partId": 1,
+      "stateId": 2,
+      "value": "test_atlas.png"
+    },
+    {
+      "nameId": 8002,
+      "name": "ATLASRECT",
+      "typeId": 209,
+      "typeName": "RECT",
+      "classId": 1,
+      "className": "Window",
+      "partId": 1,
+      "stateId": 2,
+      "value": [
+        16,
+        0,
+        32,
+        16
+      ]
+    }
+  ],
+  "images": [
+    101,
+    102,
+    103,
+    104,
+    105
+  ],
+  "streams": [
+    1
+  ]
+}

@@ -1,0 +1,3556 @@
+﻿{
+  "formatVersion": 4,
+  "file": "synthetic.msstyles",
+  "fullPath": "d:\\AntiGravity\\msstyleEditor\\tools\\synthetic.msstyles",
+  "platform": "Win11",
+  "numProperties": 28,
+  "imageResources": [
+    101,
+    102,
+    103,
+    104,
+    105
+  ],
+  "streamResources": [
+    1
+  ],
+  "stringTables": {
+},
+  "atlasEntries": [
+    {
+      "classId": 1,
+      "className": "Window",
+      "partId": 1,
+      "partName": "CAPTION",
+      "stateId": 1,
+      "stateName": "ACTIVE",
+      "rect": {
+        "left": 0,
+        "top": 0,
+        "right": 16,
+        "bottom": 16
+      },
+      "atlasImageResourceId": 1,
+      "atlasInputImage": "test_atlas.png"
+    },
+    {
+      "classId": 1,
+      "className": "Window",
+      "partId": 1,
+      "partName": "CAPTION",
+      "stateId": 2,
+      "stateName": "INACTIVE",
+      "rect": {
+        "left": 16,
+        "top": 0,
+        "right": 32,
+        "bottom": 16
+      },
+      "atlasImageResourceId": 1,
+      "atlasInputImage": "test_atlas.png"
+    }
+  ],
+  "classes": [
+    {
+      "classId": 0,
+      "className": "Button",
+      "parts": [
+        {
+          "partId": 0,
+          "partName": "Common Properties",
+          "states": [
+            {
+              "stateId": 0,
+              "stateName": "Common",
+              "properties": [
+]
+            }
+          ]
+        },
+        {
+          "partId": 1,
+          "partName": "PUSHBUTTON",
+          "states": [
+            {
+              "stateId": 0,
+              "stateName": "Common",
+              "properties": [
+                {
+                  "nameId": 2201,
+                  "name": "TRANSPARENT",
+                  "typeId": 203,
+                  "typeName": "BOOLTYPE",
+                  "shortFlag": 0,
+                  "sizeInBytes": 4,
+                  "value": true
+                },
+                {
+                  "nameId": 2403,
+                  "name": "BORDERSIZE",
+                  "typeId": 202,
+                  "typeName": "INT",
+                  "shortFlag": 0,
+                  "sizeInBytes": 4,
+                  "value": 2
+                },
+                {
+                  "nameId": 3001,
+                  "name": "IMAGEFILE",
+                  "typeId": 206,
+                  "typeName": "FILENAME",
+                  "shortFlag": 101,
+                  "sizeInBytes": 0,
+                  "value": {
+                    "resourceId": 101,
+                    "resourceType": "IMAGE"
+                  }
+                },
+                {
+                  "nameId": 3002,
+                  "name": "IMAGEFILE1",
+                  "typeId": 206,
+                  "typeName": "FILENAME",
+                  "shortFlag": 104,
+                  "sizeInBytes": 0,
+                  "value": {
+                    "resourceId": 104,
+                    "resourceType": "IMAGE"
+                  }
+                },
+                {
+                  "nameId": 3003,
+                  "name": "IMAGEFILE2",
+                  "typeId": 206,
+                  "typeName": "FILENAME",
+                  "shortFlag": 105,
+                  "sizeInBytes": 0,
+                  "value": {
+                    "resourceId": 105,
+                    "resourceType": "IMAGE"
+                  }
+                },
+                {
+                  "nameId": 3401,
+                  "name": "OFFSET",
+                  "typeId": 208,
+                  "typeName": "POSITION",
+                  "shortFlag": 0,
+                  "sizeInBytes": 8,
+                  "value": {
+                    "cx": 1,
+                    "cy": 1
+                  }
+                },
+                {
+                  "nameId": 3601,
+                  "name": "SIZINGMARGINS",
+                  "typeId": 205,
+                  "typeName": "MARGINS",
+                  "shortFlag": 0,
+                  "sizeInBytes": 16,
+                  "value": {
+                    "cxLeftWidth": 4,
+                    "cxRightWidth": 4,
+                    "cyTopHeight": 4,
+                    "cyBottomHeight": 4
+                  }
+                },
+                {
+                  "nameId": 3602,
+                  "name": "CONTENTMARGINS",
+                  "typeId": 205,
+                  "typeName": "MARGINS",
+                  "shortFlag": 0,
+                  "sizeInBytes": 16,
+                  "value": {
+                    "cxLeftWidth": 2,
+                    "cxRightWidth": 2,
+                    "cyTopHeight": 2,
+                    "cyBottomHeight": 2
+                  }
+                },
+                {
+                  "nameId": 3801,
+                  "name": "BORDERCOLOR",
+                  "typeId": 204,
+                  "typeName": "COLOR",
+                  "shortFlag": 0,
+                  "sizeInBytes": 4,
+                  "value": {
+                    "r": 10,
+                    "g": 20,
+                    "b": 30,
+                    "hex": "#0A141E"
+                  }
+                },
+                {
+                  "nameId": 3802,
+                  "name": "FILLCOLOR",
+                  "typeId": 204,
+                  "typeName": "COLOR",
+                  "shortFlag": 0,
+                  "sizeInBytes": 4,
+                  "value": {
+                    "r": 240,
+                    "g": 240,
+                    "b": 240,
+                    "hex": "#F0F0F0"
+                  }
+                },
+                {
+                  "nameId": 3803,
+                  "name": "TEXTCOLOR",
+                  "typeId": 204,
+                  "typeName": "COLOR",
+                  "shortFlag": 0,
+                  "sizeInBytes": 4,
+                  "value": {
+                    "r": 0,
+                    "g": 0,
+                    "b": 0,
+                    "hex": "#000000"
+                  }
+                },
+                {
+                  "nameId": 4001,
+                  "name": "BGTYPE",
+                  "typeId": 200,
+                  "typeName": "ENUM",
+                  "shortFlag": 0,
+                  "sizeInBytes": 4,
+                  "value": {
+                    "value": 0,
+                    "enumName": "IMAGEFILE"
+                  }
+                },
+                {
+                  "nameId": 4004,
+                  "name": "SIZINGTYPE",
+                  "typeId": 200,
+                  "typeName": "ENUM",
+                  "shortFlag": 0,
+                  "sizeInBytes": 4,
+                  "value": {
+                    "value": 1,
+                    "enumName": "STRETCH"
+                  }
+                },
+                {
+                  "nameId": 4012,
+                  "name": "GLYPHTYPE",
+                  "typeId": 200,
+                  "typeName": "ENUM",
+                  "shortFlag": 0,
+                  "sizeInBytes": 4,
+                  "value": {
+                    "value": 2,
+                    "enumName": "FONTGLYPH"
+                  }
+                },
+                {
+                  "nameId": 4014,
+                  "name": "GLYPHFONTSIZINGTYPE",
+                  "typeId": 200,
+                  "typeName": "ENUM",
+                  "shortFlag": 0,
+                  "sizeInBytes": 4,
+                  "value": {
+                    "value": 1,
+                    "enumName": "SIZE"
+                  }
+                },
+                {
+                  "nameId": 6000,
+                  "name": "TRANSITIONDURATIONS",
+                  "typeId": 211,
+                  "typeName": "INTLIST",
+                  "shortFlag": 0,
+                  "sizeInBytes": 16,
+                  "value": [
+                    100,
+                    200,
+                    300
+                  ]
+                }
+              ]
+            },
+            {
+              "stateId": 1,
+              "stateName": "NORMAL",
+              "properties": [
+                {
+                  "nameId": 3001,
+                  "name": "IMAGEFILE",
+                  "typeId": 206,
+                  "typeName": "FILENAME",
+                  "shortFlag": 101,
+                  "sizeInBytes": 0,
+                  "value": {
+                    "resourceId": 101,
+                    "resourceType": "IMAGE"
+                  }
+                },
+                {
+                  "nameId": 3801,
+                  "name": "BORDERCOLOR",
+                  "typeId": 204,
+                  "typeName": "COLOR",
+                  "shortFlag": 0,
+                  "sizeInBytes": 4,
+                  "value": {
+                    "r": 50,
+                    "g": 60,
+                    "b": 70,
+                    "hex": "#323C46"
+                  }
+                }
+              ]
+            },
+            {
+              "stateId": 2,
+              "stateName": "HOT",
+              "properties": [
+                {
+                  "nameId": 3001,
+                  "name": "IMAGEFILE",
+                  "typeId": 206,
+                  "typeName": "FILENAME",
+                  "shortFlag": 102,
+                  "sizeInBytes": 0,
+                  "value": {
+                    "resourceId": 102,
+                    "resourceType": "IMAGE"
+                  }
+                },
+                {
+                  "nameId": 3801,
+                  "name": "BORDERCOLOR",
+                  "typeId": 204,
+                  "typeName": "COLOR",
+                  "shortFlag": 0,
+                  "sizeInBytes": 4,
+                  "value": {
+                    "r": 255,
+                    "g": 128,
+                    "b": 0,
+                    "hex": "#FF8000"
+                  }
+                }
+              ]
+            },
+            {
+              "stateId": 3,
+              "stateName": "PRESSED",
+              "properties": [
+                {
+                  "nameId": 3001,
+                  "name": "IMAGEFILE",
+                  "typeId": 206,
+                  "typeName": "FILENAME",
+                  "shortFlag": 103,
+                  "sizeInBytes": 0,
+                  "value": {
+                    "resourceId": 103,
+                    "resourceType": "IMAGE"
+                  }
+                },
+                {
+                  "nameId": 3801,
+                  "name": "BORDERCOLOR",
+                  "typeId": 204,
+                  "typeName": "COLOR",
+                  "shortFlag": 0,
+                  "sizeInBytes": 4,
+                  "value": {
+                    "r": 0,
+                    "g": 128,
+                    "b": 255,
+                    "hex": "#0080FF"
+                  }
+                }
+              ]
+            },
+            {
+              "stateId": 4,
+              "stateName": "DISABLED",
+              "properties": [
+]
+            },
+            {
+              "stateId": 5,
+              "stateName": "DEFAULTED",
+              "properties": [
+]
+            },
+            {
+              "stateId": 6,
+              "stateName": "DEFAULTED_ANIMATING",
+              "properties": [
+]
+            }
+          ]
+        },
+        {
+          "partId": 2,
+          "partName": "RADIOBUTTON",
+          "states": [
+            {
+              "stateId": 0,
+              "stateName": "Common",
+              "properties": [
+]
+            },
+            {
+              "stateId": 1,
+              "stateName": "UNCHECKEDNORMAL",
+              "properties": [
+]
+            },
+            {
+              "stateId": 2,
+              "stateName": "UNCHECKEDHOT",
+              "properties": [
+]
+            },
+            {
+              "stateId": 3,
+              "stateName": "UNCHECKEDPRESSED",
+              "properties": [
+]
+            },
+            {
+              "stateId": 4,
+              "stateName": "UNCHECKEDDISABLED",
+              "properties": [
+]
+            },
+            {
+              "stateId": 5,
+              "stateName": "CHECKEDNORMAL",
+              "properties": [
+]
+            },
+            {
+              "stateId": 6,
+              "stateName": "CHECKEDHOT",
+              "properties": [
+]
+            },
+            {
+              "stateId": 7,
+              "stateName": "CHECKEDPRESSED",
+              "properties": [
+]
+            },
+            {
+              "stateId": 8,
+              "stateName": "CHECKEDDISABLED",
+              "properties": [
+]
+            }
+          ]
+        },
+        {
+          "partId": 3,
+          "partName": "CHECKBOX",
+          "states": [
+            {
+              "stateId": 0,
+              "stateName": "Common",
+              "properties": [
+]
+            },
+            {
+              "stateId": 1,
+              "stateName": "UNCHECKEDNORMAL",
+              "properties": [
+]
+            },
+            {
+              "stateId": 2,
+              "stateName": "UNCHECKEDHOT",
+              "properties": [
+]
+            },
+            {
+              "stateId": 3,
+              "stateName": "UNCHECKEDPRESSED",
+              "properties": [
+]
+            },
+            {
+              "stateId": 4,
+              "stateName": "UNCHECKEDDISABLED",
+              "properties": [
+]
+            },
+            {
+              "stateId": 5,
+              "stateName": "CHECKEDNORMAL",
+              "properties": [
+]
+            },
+            {
+              "stateId": 6,
+              "stateName": "CHECKEDHOT",
+              "properties": [
+]
+            },
+            {
+              "stateId": 7,
+              "stateName": "CHECKEDPRESSED",
+              "properties": [
+]
+            },
+            {
+              "stateId": 8,
+              "stateName": "CHECKEDDISABLED",
+              "properties": [
+]
+            },
+            {
+              "stateId": 9,
+              "stateName": "MIXEDNORMAL",
+              "properties": [
+]
+            },
+            {
+              "stateId": 10,
+              "stateName": "MIXEDHOT",
+              "properties": [
+]
+            },
+            {
+              "stateId": 11,
+              "stateName": "MIXEDPRESSED",
+              "properties": [
+]
+            },
+            {
+              "stateId": 12,
+              "stateName": "MIXEDDISABLED",
+              "properties": [
+]
+            },
+            {
+              "stateId": 13,
+              "stateName": "IMPLICITNORMAL",
+              "properties": [
+]
+            },
+            {
+              "stateId": 14,
+              "stateName": "IMPLICITHOT",
+              "properties": [
+]
+            },
+            {
+              "stateId": 15,
+              "stateName": "IMPLICITPRESSED",
+              "properties": [
+]
+            },
+            {
+              "stateId": 16,
+              "stateName": "IMPLICITDISABLED",
+              "properties": [
+]
+            },
+            {
+              "stateId": 17,
+              "stateName": "EXCLUDEDNORMAL",
+              "properties": [
+]
+            },
+            {
+              "stateId": 18,
+              "stateName": "EXCLUDEDHOT",
+              "properties": [
+]
+            },
+            {
+              "stateId": 19,
+              "stateName": "EXCLUDEDPRESSED",
+              "properties": [
+]
+            },
+            {
+              "stateId": 20,
+              "stateName": "EXCLUDEDDISABLED",
+              "properties": [
+]
+            }
+          ]
+        },
+        {
+          "partId": 4,
+          "partName": "GROUPBOX",
+          "states": [
+            {
+              "stateId": 0,
+              "stateName": "Common",
+              "properties": [
+]
+            },
+            {
+              "stateId": 1,
+              "stateName": "NORMAL",
+              "properties": [
+]
+            },
+            {
+              "stateId": 2,
+              "stateName": "DISABLED",
+              "properties": [
+]
+            }
+          ]
+        },
+        {
+          "partId": 5,
+          "partName": "USERBUTTON",
+          "states": [
+            {
+              "stateId": 0,
+              "stateName": "Common",
+              "properties": [
+]
+            }
+          ]
+        },
+        {
+          "partId": 6,
+          "partName": "COMMANDLINK",
+          "states": [
+            {
+              "stateId": 0,
+              "stateName": "Common",
+              "properties": [
+]
+            },
+            {
+              "stateId": 1,
+              "stateName": "NORMAL",
+              "properties": [
+]
+            },
+            {
+              "stateId": 2,
+              "stateName": "HOT",
+              "properties": [
+]
+            },
+            {
+              "stateId": 3,
+              "stateName": "PRESSED",
+              "properties": [
+]
+            },
+            {
+              "stateId": 4,
+              "stateName": "DISABLED",
+              "properties": [
+]
+            },
+            {
+              "stateId": 5,
+              "stateName": "DEFAULTED",
+              "properties": [
+]
+            },
+            {
+              "stateId": 6,
+              "stateName": "DEFAULTED_ANIMATING",
+              "properties": [
+]
+            }
+          ]
+        },
+        {
+          "partId": 7,
+          "partName": "COMMANDLINKGLYPH",
+          "states": [
+            {
+              "stateId": 0,
+              "stateName": "Common",
+              "properties": [
+]
+            },
+            {
+              "stateId": 1,
+              "stateName": "NORMAL",
+              "properties": [
+]
+            },
+            {
+              "stateId": 2,
+              "stateName": "HOT",
+              "properties": [
+]
+            },
+            {
+              "stateId": 3,
+              "stateName": "PRESSED",
+              "properties": [
+]
+            },
+            {
+              "stateId": 4,
+              "stateName": "DISABLED",
+              "properties": [
+]
+            },
+            {
+              "stateId": 5,
+              "stateName": "DEFAULTED",
+              "properties": [
+]
+            }
+          ]
+        },
+        {
+          "partId": 8,
+          "partName": "RADIOBUTTON_LITE",
+          "states": [
+            {
+              "stateId": 0,
+              "stateName": "Common",
+              "properties": [
+]
+            },
+            {
+              "stateId": 1,
+              "stateName": "UNCHECKEDNORMAL",
+              "properties": [
+]
+            },
+            {
+              "stateId": 2,
+              "stateName": "UNCHECKEDHOT",
+              "properties": [
+]
+            },
+            {
+              "stateId": 3,
+              "stateName": "UNCHECKEDPRESSED",
+              "properties": [
+]
+            },
+            {
+              "stateId": 4,
+              "stateName": "UNCHECKEDDISABLED",
+              "properties": [
+]
+            },
+            {
+              "stateId": 5,
+              "stateName": "CHECKEDNORMAL",
+              "properties": [
+]
+            },
+            {
+              "stateId": 6,
+              "stateName": "CHECKEDHOT",
+              "properties": [
+]
+            },
+            {
+              "stateId": 7,
+              "stateName": "CHECKEDPRESSED",
+              "properties": [
+]
+            },
+            {
+              "stateId": 8,
+              "stateName": "CHECKEDDISABLED",
+              "properties": [
+]
+            }
+          ]
+        },
+        {
+          "partId": 9,
+          "partName": "CHECKBOX_LITE",
+          "states": [
+            {
+              "stateId": 0,
+              "stateName": "Common",
+              "properties": [
+]
+            },
+            {
+              "stateId": 1,
+              "stateName": "UNCHECKEDNORMAL",
+              "properties": [
+]
+            },
+            {
+              "stateId": 2,
+              "stateName": "UNCHECKEDHOT",
+              "properties": [
+]
+            },
+            {
+              "stateId": 3,
+              "stateName": "UNCHECKEDPRESSED",
+              "properties": [
+]
+            },
+            {
+              "stateId": 4,
+              "stateName": "UNCHECKEDDISABLED",
+              "properties": [
+]
+            },
+            {
+              "stateId": 5,
+              "stateName": "CHECKEDNORMAL",
+              "properties": [
+]
+            },
+            {
+              "stateId": 6,
+              "stateName": "CHECKEDHOT",
+              "properties": [
+]
+            },
+            {
+              "stateId": 7,
+              "stateName": "CHECKEDPRESSED",
+              "properties": [
+]
+            },
+            {
+              "stateId": 8,
+              "stateName": "CHECKEDDISABLED",
+              "properties": [
+]
+            },
+            {
+              "stateId": 9,
+              "stateName": "MIXEDNORMAL",
+              "properties": [
+]
+            },
+            {
+              "stateId": 10,
+              "stateName": "MIXEDHOT",
+              "properties": [
+]
+            },
+            {
+              "stateId": 11,
+              "stateName": "MIXEDPRESSED",
+              "properties": [
+]
+            },
+            {
+              "stateId": 12,
+              "stateName": "MIXEDDISABLED",
+              "properties": [
+]
+            },
+            {
+              "stateId": 13,
+              "stateName": "IMPLICITNORMAL",
+              "properties": [
+]
+            },
+            {
+              "stateId": 14,
+              "stateName": "IMPLICITHOT",
+              "properties": [
+]
+            },
+            {
+              "stateId": 15,
+              "stateName": "IMPLICITPRESSED",
+              "properties": [
+]
+            },
+            {
+              "stateId": 16,
+              "stateName": "IMPLICITDISABLED",
+              "properties": [
+]
+            },
+            {
+              "stateId": 17,
+              "stateName": "EXCLUDEDNORMAL",
+              "properties": [
+]
+            },
+            {
+              "stateId": 18,
+              "stateName": "EXCLUDEDHOT",
+              "properties": [
+]
+            },
+            {
+              "stateId": 19,
+              "stateName": "EXCLUDEDPRESSED",
+              "properties": [
+]
+            },
+            {
+              "stateId": 20,
+              "stateName": "EXCLUDEDDISABLED",
+              "properties": [
+]
+            }
+          ]
+        },
+        {
+          "partId": 10,
+          "partName": "GROUPBOX_LITE",
+          "states": [
+            {
+              "stateId": 0,
+              "stateName": "Common",
+              "properties": [
+]
+            },
+            {
+              "stateId": 1,
+              "stateName": "NORMAL",
+              "properties": [
+]
+            },
+            {
+              "stateId": 2,
+              "stateName": "DISABLED",
+              "properties": [
+]
+            }
+          ]
+        },
+        {
+          "partId": 11,
+          "partName": "PUSHBUTTONDROPDOWN",
+          "states": [
+            {
+              "stateId": 0,
+              "stateName": "Common",
+              "properties": [
+]
+            },
+            {
+              "stateId": 1,
+              "stateName": "NORMAL",
+              "properties": [
+]
+            },
+            {
+              "stateId": 2,
+              "stateName": "DISABLED",
+              "properties": [
+]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "classId": 1,
+      "className": "Window",
+      "parts": [
+        {
+          "partId": 0,
+          "partName": "Common Properties",
+          "states": [
+            {
+              "stateId": 0,
+              "stateName": "Common",
+              "properties": [
+]
+            }
+          ]
+        },
+        {
+          "partId": 1,
+          "partName": "CAPTION",
+          "states": [
+            {
+              "stateId": 0,
+              "stateName": "Common",
+              "properties": [
+]
+            },
+            {
+              "stateId": 1,
+              "stateName": "ACTIVE",
+              "properties": [
+                {
+                  "nameId": 8000,
+                  "name": "ATLASIMAGE",
+                  "typeId": 213,
+                  "typeName": "DISKSTREAM",
+                  "shortFlag": 1,
+                  "sizeInBytes": 0,
+                  "value": {
+                    "resourceId": 1,
+                    "resourceType": "STREAM"
+                  }
+                },
+                {
+                  "nameId": 8001,
+                  "name": "ATLASINPUTIMAGE",
+                  "typeId": 201,
+                  "typeName": "STRING",
+                  "shortFlag": 0,
+                  "sizeInBytes": 30,
+                  "value": "test_atlas.png"
+                },
+                {
+                  "nameId": 8002,
+                  "name": "ATLASRECT",
+                  "typeId": 209,
+                  "typeName": "RECTTYPE",
+                  "shortFlag": 0,
+                  "sizeInBytes": 16,
+                  "value": {
+                    "left": 0,
+                    "top": 0,
+                    "right": 16,
+                    "bottom": 16
+                  }
+                }
+              ]
+            },
+            {
+              "stateId": 2,
+              "stateName": "INACTIVE",
+              "properties": [
+                {
+                  "nameId": 8000,
+                  "name": "ATLASIMAGE",
+                  "typeId": 213,
+                  "typeName": "DISKSTREAM",
+                  "shortFlag": 1,
+                  "sizeInBytes": 0,
+                  "value": {
+                    "resourceId": 1,
+                    "resourceType": "STREAM"
+                  }
+                },
+                {
+                  "nameId": 8001,
+                  "name": "ATLASINPUTIMAGE",
+                  "typeId": 201,
+                  "typeName": "STRING",
+                  "shortFlag": 0,
+                  "sizeInBytes": 30,
+                  "value": "test_atlas.png"
+                },
+                {
+                  "nameId": 8002,
+                  "name": "ATLASRECT",
+                  "typeId": 209,
+                  "typeName": "RECTTYPE",
+                  "shortFlag": 0,
+                  "sizeInBytes": 16,
+                  "value": {
+                    "left": 16,
+                    "top": 0,
+                    "right": 32,
+                    "bottom": 16
+                  }
+                }
+              ]
+            },
+            {
+              "stateId": 3,
+              "stateName": "DISABLED",
+              "properties": [
+]
+            }
+          ]
+        },
+        {
+          "partId": 2,
+          "partName": "SMALLCAPTION",
+          "states": [
+            {
+              "stateId": 0,
+              "stateName": "Common",
+              "properties": [
+]
+            },
+            {
+              "stateId": 1,
+              "stateName": "ACTIVE",
+              "properties": [
+]
+            },
+            {
+              "stateId": 2,
+              "stateName": "INACTIVE",
+              "properties": [
+]
+            },
+            {
+              "stateId": 3,
+              "stateName": "DISABLED",
+              "properties": [
+]
+            }
+          ]
+        },
+        {
+          "partId": 3,
+          "partName": "MINCAPTION",
+          "states": [
+            {
+              "stateId": 0,
+              "stateName": "Common",
+              "properties": [
+]
+            },
+            {
+              "stateId": 1,
+              "stateName": "ACTIVE",
+              "properties": [
+]
+            },
+            {
+              "stateId": 2,
+              "stateName": "INACTIVE",
+              "properties": [
+]
+            },
+            {
+              "stateId": 3,
+              "stateName": "DISABLED",
+              "properties": [
+]
+            }
+          ]
+        },
+        {
+          "partId": 4,
+          "partName": "SMALLMINCAPTION",
+          "states": [
+            {
+              "stateId": 0,
+              "stateName": "Common",
+              "properties": [
+]
+            },
+            {
+              "stateId": 1,
+              "stateName": "ACTIVE",
+              "properties": [
+]
+            },
+            {
+              "stateId": 2,
+              "stateName": "INACTIVE",
+              "properties": [
+]
+            },
+            {
+              "stateId": 3,
+              "stateName": "DISABLED",
+              "properties": [
+]
+            }
+          ]
+        },
+        {
+          "partId": 5,
+          "partName": "MAXCAPTION",
+          "states": [
+            {
+              "stateId": 0,
+              "stateName": "Common",
+              "properties": [
+]
+            },
+            {
+              "stateId": 1,
+              "stateName": "ACTIVE",
+              "properties": [
+]
+            },
+            {
+              "stateId": 2,
+              "stateName": "INACTIVE",
+              "properties": [
+]
+            },
+            {
+              "stateId": 3,
+              "stateName": "DISABLED",
+              "properties": [
+]
+            }
+          ]
+        },
+        {
+          "partId": 6,
+          "partName": "SMALLMAXCAPTION",
+          "states": [
+            {
+              "stateId": 0,
+              "stateName": "Common",
+              "properties": [
+]
+            },
+            {
+              "stateId": 1,
+              "stateName": "ACTIVE",
+              "properties": [
+]
+            },
+            {
+              "stateId": 2,
+              "stateName": "INACTIVE",
+              "properties": [
+]
+            },
+            {
+              "stateId": 3,
+              "stateName": "DISABLED",
+              "properties": [
+]
+            }
+          ]
+        },
+        {
+          "partId": 7,
+          "partName": "FRAMELEFT",
+          "states": [
+            {
+              "stateId": 0,
+              "stateName": "Common",
+              "properties": [
+]
+            },
+            {
+              "stateId": 1,
+              "stateName": "ACTIVE",
+              "properties": [
+]
+            },
+            {
+              "stateId": 2,
+              "stateName": "INACTIVE",
+              "properties": [
+]
+            }
+          ]
+        },
+        {
+          "partId": 8,
+          "partName": "FRAMERIGHT",
+          "states": [
+            {
+              "stateId": 0,
+              "stateName": "Common",
+              "properties": [
+]
+            },
+            {
+              "stateId": 1,
+              "stateName": "ACTIVE",
+              "properties": [
+]
+            },
+            {
+              "stateId": 2,
+              "stateName": "INACTIVE",
+              "properties": [
+]
+            }
+          ]
+        },
+        {
+          "partId": 9,
+          "partName": "FRAMEBOTTOM",
+          "states": [
+            {
+              "stateId": 0,
+              "stateName": "Common",
+              "properties": [
+]
+            },
+            {
+              "stateId": 1,
+              "stateName": "ACTIVE",
+              "properties": [
+]
+            },
+            {
+              "stateId": 2,
+              "stateName": "INACTIVE",
+              "properties": [
+]
+            }
+          ]
+        },
+        {
+          "partId": 10,
+          "partName": "SMALLFRAMELEFT",
+          "states": [
+            {
+              "stateId": 0,
+              "stateName": "Common",
+              "properties": [
+]
+            },
+            {
+              "stateId": 1,
+              "stateName": "ACTIVE",
+              "properties": [
+]
+            },
+            {
+              "stateId": 2,
+              "stateName": "INACTIVE",
+              "properties": [
+]
+            }
+          ]
+        },
+        {
+          "partId": 11,
+          "partName": "SMALLFRAMERIGHT",
+          "states": [
+            {
+              "stateId": 0,
+              "stateName": "Common",
+              "properties": [
+]
+            },
+            {
+              "stateId": 1,
+              "stateName": "ACTIVE",
+              "properties": [
+]
+            },
+            {
+              "stateId": 2,
+              "stateName": "INACTIVE",
+              "properties": [
+]
+            }
+          ]
+        },
+        {
+          "partId": 12,
+          "partName": "SMALLFRAMEBOTTOM",
+          "states": [
+            {
+              "stateId": 0,
+              "stateName": "Common",
+              "properties": [
+]
+            },
+            {
+              "stateId": 1,
+              "stateName": "ACTIVE",
+              "properties": [
+]
+            },
+            {
+              "stateId": 2,
+              "stateName": "INACTIVE",
+              "properties": [
+]
+            }
+          ]
+        },
+        {
+          "partId": 13,
+          "partName": "SYSBUTTON",
+          "states": [
+            {
+              "stateId": 0,
+              "stateName": "Common",
+              "properties": [
+]
+            },
+            {
+              "stateId": 1,
+              "stateName": "NORMAL",
+              "properties": [
+]
+            },
+            {
+              "stateId": 2,
+              "stateName": "HOT",
+              "properties": [
+]
+            },
+            {
+              "stateId": 3,
+              "stateName": "PUSHED",
+              "properties": [
+]
+            },
+            {
+              "stateId": 4,
+              "stateName": "DISABLED",
+              "properties": [
+]
+            }
+          ]
+        },
+        {
+          "partId": 14,
+          "partName": "MDISYSBUTTON",
+          "states": [
+            {
+              "stateId": 0,
+              "stateName": "Common",
+              "properties": [
+]
+            },
+            {
+              "stateId": 1,
+              "stateName": "NORMAL",
+              "properties": [
+]
+            },
+            {
+              "stateId": 2,
+              "stateName": "HOT",
+              "properties": [
+]
+            },
+            {
+              "stateId": 3,
+              "stateName": "PUSHED",
+              "properties": [
+]
+            },
+            {
+              "stateId": 4,
+              "stateName": "DISABLED",
+              "properties": [
+]
+            }
+          ]
+        },
+        {
+          "partId": 15,
+          "partName": "MINBUTTON",
+          "states": [
+            {
+              "stateId": 0,
+              "stateName": "Common",
+              "properties": [
+]
+            },
+            {
+              "stateId": 1,
+              "stateName": "NORMAL",
+              "properties": [
+]
+            },
+            {
+              "stateId": 2,
+              "stateName": "HOT",
+              "properties": [
+]
+            },
+            {
+              "stateId": 3,
+              "stateName": "PUSHED",
+              "properties": [
+]
+            },
+            {
+              "stateId": 4,
+              "stateName": "DISABLED",
+              "properties": [
+]
+            }
+          ]
+        },
+        {
+          "partId": 16,
+          "partName": "MDIMINBUTTON",
+          "states": [
+            {
+              "stateId": 0,
+              "stateName": "Common",
+              "properties": [
+]
+            },
+            {
+              "stateId": 1,
+              "stateName": "NORMAL",
+              "properties": [
+]
+            },
+            {
+              "stateId": 2,
+              "stateName": "HOT",
+              "properties": [
+]
+            },
+            {
+              "stateId": 3,
+              "stateName": "PUSHED",
+              "properties": [
+]
+            },
+            {
+              "stateId": 4,
+              "stateName": "DISABLED",
+              "properties": [
+]
+            }
+          ]
+        },
+        {
+          "partId": 17,
+          "partName": "MAXBUTTON",
+          "states": [
+            {
+              "stateId": 0,
+              "stateName": "Common",
+              "properties": [
+]
+            },
+            {
+              "stateId": 1,
+              "stateName": "NORMAL",
+              "properties": [
+]
+            },
+            {
+              "stateId": 2,
+              "stateName": "HOT",
+              "properties": [
+]
+            },
+            {
+              "stateId": 3,
+              "stateName": "PUSHED",
+              "properties": [
+]
+            },
+            {
+              "stateId": 4,
+              "stateName": "DISABLED",
+              "properties": [
+]
+            }
+          ]
+        },
+        {
+          "partId": 18,
+          "partName": "CLOSEBUTTON",
+          "states": [
+            {
+              "stateId": 0,
+              "stateName": "Common",
+              "properties": [
+]
+            },
+            {
+              "stateId": 1,
+              "stateName": "NORMAL",
+              "properties": [
+]
+            },
+            {
+              "stateId": 2,
+              "stateName": "HOT",
+              "properties": [
+]
+            },
+            {
+              "stateId": 3,
+              "stateName": "PUSHED",
+              "properties": [
+]
+            },
+            {
+              "stateId": 4,
+              "stateName": "DISABLED",
+              "properties": [
+]
+            }
+          ]
+        },
+        {
+          "partId": 19,
+          "partName": "SMALLCLOSEBUTTON",
+          "states": [
+            {
+              "stateId": 0,
+              "stateName": "Common",
+              "properties": [
+]
+            },
+            {
+              "stateId": 1,
+              "stateName": "NORMAL",
+              "properties": [
+]
+            },
+            {
+              "stateId": 2,
+              "stateName": "HOT",
+              "properties": [
+]
+            },
+            {
+              "stateId": 3,
+              "stateName": "PUSHED",
+              "properties": [
+]
+            },
+            {
+              "stateId": 4,
+              "stateName": "DISABLED",
+              "properties": [
+]
+            }
+          ]
+        },
+        {
+          "partId": 20,
+          "partName": "MDICLOSEBUTTON",
+          "states": [
+            {
+              "stateId": 0,
+              "stateName": "Common",
+              "properties": [
+]
+            },
+            {
+              "stateId": 1,
+              "stateName": "NORMAL",
+              "properties": [
+]
+            },
+            {
+              "stateId": 2,
+              "stateName": "HOT",
+              "properties": [
+]
+            },
+            {
+              "stateId": 3,
+              "stateName": "PUSHED",
+              "properties": [
+]
+            },
+            {
+              "stateId": 4,
+              "stateName": "DISABLED",
+              "properties": [
+]
+            }
+          ]
+        },
+        {
+          "partId": 21,
+          "partName": "RESTOREBUTTON",
+          "states": [
+            {
+              "stateId": 0,
+              "stateName": "Common",
+              "properties": [
+]
+            },
+            {
+              "stateId": 1,
+              "stateName": "NORMAL",
+              "properties": [
+]
+            },
+            {
+              "stateId": 2,
+              "stateName": "HOT",
+              "properties": [
+]
+            },
+            {
+              "stateId": 3,
+              "stateName": "PUSHED",
+              "properties": [
+]
+            },
+            {
+              "stateId": 4,
+              "stateName": "DISABLED",
+              "properties": [
+]
+            }
+          ]
+        },
+        {
+          "partId": 22,
+          "partName": "MDIRESTOREBUTTON",
+          "states": [
+            {
+              "stateId": 0,
+              "stateName": "Common",
+              "properties": [
+]
+            },
+            {
+              "stateId": 1,
+              "stateName": "NORMAL",
+              "properties": [
+]
+            },
+            {
+              "stateId": 2,
+              "stateName": "HOT",
+              "properties": [
+]
+            },
+            {
+              "stateId": 3,
+              "stateName": "PUSHED",
+              "properties": [
+]
+            },
+            {
+              "stateId": 4,
+              "stateName": "DISABLED",
+              "properties": [
+]
+            }
+          ]
+        },
+        {
+          "partId": 23,
+          "partName": "HELPBUTTON",
+          "states": [
+            {
+              "stateId": 0,
+              "stateName": "Common",
+              "properties": [
+]
+            },
+            {
+              "stateId": 1,
+              "stateName": "NORMAL",
+              "properties": [
+]
+            },
+            {
+              "stateId": 2,
+              "stateName": "HOT",
+              "properties": [
+]
+            },
+            {
+              "stateId": 3,
+              "stateName": "PUSHED",
+              "properties": [
+]
+            },
+            {
+              "stateId": 4,
+              "stateName": "DISABLED",
+              "properties": [
+]
+            }
+          ]
+        },
+        {
+          "partId": 24,
+          "partName": "MDIHELPBUTTON",
+          "states": [
+            {
+              "stateId": 0,
+              "stateName": "Common",
+              "properties": [
+]
+            },
+            {
+              "stateId": 1,
+              "stateName": "NORMAL",
+              "properties": [
+]
+            },
+            {
+              "stateId": 2,
+              "stateName": "HOT",
+              "properties": [
+]
+            },
+            {
+              "stateId": 3,
+              "stateName": "PUSHED",
+              "properties": [
+]
+            },
+            {
+              "stateId": 4,
+              "stateName": "DISABLED",
+              "properties": [
+]
+            }
+          ]
+        },
+        {
+          "partId": 25,
+          "partName": "HORZSCROLL",
+          "states": [
+            {
+              "stateId": 0,
+              "stateName": "Common",
+              "properties": [
+]
+            },
+            {
+              "stateId": 1,
+              "stateName": "NORMAL",
+              "properties": [
+]
+            },
+            {
+              "stateId": 2,
+              "stateName": "HOT",
+              "properties": [
+]
+            },
+            {
+              "stateId": 3,
+              "stateName": "PUSHED",
+              "properties": [
+]
+            },
+            {
+              "stateId": 4,
+              "stateName": "DISABLED",
+              "properties": [
+]
+            }
+          ]
+        },
+        {
+          "partId": 26,
+          "partName": "HORZTHUMB",
+          "states": [
+            {
+              "stateId": 0,
+              "stateName": "Common",
+              "properties": [
+]
+            },
+            {
+              "stateId": 1,
+              "stateName": "NORMAL",
+              "properties": [
+]
+            },
+            {
+              "stateId": 2,
+              "stateName": "HOT",
+              "properties": [
+]
+            },
+            {
+              "stateId": 3,
+              "stateName": "PUSHED",
+              "properties": [
+]
+            },
+            {
+              "stateId": 4,
+              "stateName": "DISABLED",
+              "properties": [
+]
+            }
+          ]
+        },
+        {
+          "partId": 27,
+          "partName": "VERTSCROLL",
+          "states": [
+            {
+              "stateId": 0,
+              "stateName": "Common",
+              "properties": [
+]
+            },
+            {
+              "stateId": 1,
+              "stateName": "NORMAL",
+              "properties": [
+]
+            },
+            {
+              "stateId": 2,
+              "stateName": "HOT",
+              "properties": [
+]
+            },
+            {
+              "stateId": 3,
+              "stateName": "PUSHED",
+              "properties": [
+]
+            },
+            {
+              "stateId": 4,
+              "stateName": "DISABLED",
+              "properties": [
+]
+            }
+          ]
+        },
+        {
+          "partId": 28,
+          "partName": "VERTTHUMB",
+          "states": [
+            {
+              "stateId": 0,
+              "stateName": "Common",
+              "properties": [
+]
+            },
+            {
+              "stateId": 1,
+              "stateName": "NORMAL",
+              "properties": [
+]
+            },
+            {
+              "stateId": 2,
+              "stateName": "HOT",
+              "properties": [
+]
+            },
+            {
+              "stateId": 3,
+              "stateName": "PUSHED",
+              "properties": [
+]
+            },
+            {
+              "stateId": 4,
+              "stateName": "DISABLED",
+              "properties": [
+]
+            }
+          ]
+        },
+        {
+          "partId": 29,
+          "partName": "DIALOG",
+          "states": [
+            {
+              "stateId": 0,
+              "stateName": "Common",
+              "properties": [
+]
+            }
+          ]
+        },
+        {
+          "partId": 30,
+          "partName": "CAPTIONSIZINGTEMPLATE",
+          "states": [
+            {
+              "stateId": 0,
+              "stateName": "Common",
+              "properties": [
+]
+            }
+          ]
+        },
+        {
+          "partId": 31,
+          "partName": "SMALLCAPTIONSIZINGTEMPLATE",
+          "states": [
+            {
+              "stateId": 0,
+              "stateName": "Common",
+              "properties": [
+]
+            }
+          ]
+        },
+        {
+          "partId": 32,
+          "partName": "FRAMELEFTSIZINGTEMPLATE",
+          "states": [
+            {
+              "stateId": 0,
+              "stateName": "Common",
+              "properties": [
+]
+            }
+          ]
+        },
+        {
+          "partId": 33,
+          "partName": "SMALLFRAMELEFTSIZINGTEMPLATE",
+          "states": [
+            {
+              "stateId": 0,
+              "stateName": "Common",
+              "properties": [
+]
+            }
+          ]
+        },
+        {
+          "partId": 34,
+          "partName": "FRAMERIGHTSIZINGTEMPLATE",
+          "states": [
+            {
+              "stateId": 0,
+              "stateName": "Common",
+              "properties": [
+]
+            }
+          ]
+        },
+        {
+          "partId": 35,
+          "partName": "SMALLFRAMERIGHTSIZINGTEMPLATE",
+          "states": [
+            {
+              "stateId": 0,
+              "stateName": "Common",
+              "properties": [
+]
+            }
+          ]
+        },
+        {
+          "partId": 36,
+          "partName": "FRAMEBOTTOMSIZINGTEMPLATE",
+          "states": [
+            {
+              "stateId": 0,
+              "stateName": "Common",
+              "properties": [
+]
+            }
+          ]
+        },
+        {
+          "partId": 37,
+          "partName": "SMALLFRAMEBOTTOMSIZINGTEMPLATE",
+          "states": [
+            {
+              "stateId": 0,
+              "stateName": "Common",
+              "properties": [
+]
+            }
+          ]
+        },
+        {
+          "partId": 38,
+          "partName": "FRAME",
+          "states": [
+            {
+              "stateId": 0,
+              "stateName": "Common",
+              "properties": [
+]
+            },
+            {
+              "stateId": 1,
+              "stateName": "ACTIVE",
+              "properties": [
+]
+            },
+            {
+              "stateId": 2,
+              "stateName": "INACTIVE",
+              "properties": [
+]
+            }
+          ]
+        },
+        {
+          "partId": 39,
+          "partName": "BORDER",
+          "states": [
+            {
+              "stateId": 0,
+              "stateName": "Common",
+              "properties": [
+]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "classId": 2,
+      "className": "Edit",
+      "parts": [
+        {
+          "partId": 0,
+          "partName": "Common Properties",
+          "states": [
+            {
+              "stateId": 0,
+              "stateName": "Common",
+              "properties": [
+]
+            }
+          ]
+        },
+        {
+          "partId": 1,
+          "partName": "EDITTEXT",
+          "states": [
+            {
+              "stateId": 0,
+              "stateName": "Common",
+              "properties": [
+]
+            },
+            {
+              "stateId": 1,
+              "stateName": "NORMAL",
+              "properties": [
+]
+            },
+            {
+              "stateId": 2,
+              "stateName": "HOT",
+              "properties": [
+]
+            },
+            {
+              "stateId": 3,
+              "stateName": "SELECTED",
+              "properties": [
+]
+            },
+            {
+              "stateId": 4,
+              "stateName": "DISABLED",
+              "properties": [
+]
+            },
+            {
+              "stateId": 5,
+              "stateName": "FOCUSED",
+              "properties": [
+]
+            },
+            {
+              "stateId": 6,
+              "stateName": "READONLY",
+              "properties": [
+]
+            },
+            {
+              "stateId": 7,
+              "stateName": "ASSIST",
+              "properties": [
+]
+            },
+            {
+              "stateId": 8,
+              "stateName": "CUEBANNER",
+              "properties": [
+]
+            }
+          ]
+        },
+        {
+          "partId": 2,
+          "partName": "CARET",
+          "states": [
+            {
+              "stateId": 0,
+              "stateName": "Common",
+              "properties": [
+]
+            }
+          ]
+        },
+        {
+          "partId": 3,
+          "partName": "BACKGROUND",
+          "states": [
+            {
+              "stateId": 0,
+              "stateName": "Common",
+              "properties": [
+]
+            },
+            {
+              "stateId": 1,
+              "stateName": "NORMAL",
+              "properties": [
+]
+            },
+            {
+              "stateId": 2,
+              "stateName": "HOT",
+              "properties": [
+]
+            },
+            {
+              "stateId": 3,
+              "stateName": "DISABLED",
+              "properties": [
+]
+            },
+            {
+              "stateId": 4,
+              "stateName": "FOCUSED",
+              "properties": [
+]
+            },
+            {
+              "stateId": 5,
+              "stateName": "READONLY",
+              "properties": [
+]
+            },
+            {
+              "stateId": 6,
+              "stateName": "ASSIST",
+              "properties": [
+]
+            }
+          ]
+        },
+        {
+          "partId": 4,
+          "partName": "PASSWORD",
+          "states": [
+            {
+              "stateId": 0,
+              "stateName": "Common",
+              "properties": [
+]
+            }
+          ]
+        },
+        {
+          "partId": 5,
+          "partName": "BACKGROUNDWITHBORDER",
+          "states": [
+            {
+              "stateId": 0,
+              "stateName": "Common",
+              "properties": [
+]
+            },
+            {
+              "stateId": 1,
+              "stateName": "NORMAL",
+              "properties": [
+]
+            },
+            {
+              "stateId": 2,
+              "stateName": "HOT",
+              "properties": [
+]
+            },
+            {
+              "stateId": 3,
+              "stateName": "DISABLED",
+              "properties": [
+]
+            },
+            {
+              "stateId": 4,
+              "stateName": "FOCUSED",
+              "properties": [
+]
+            }
+          ]
+        },
+        {
+          "partId": 6,
+          "partName": "EDITBORDER_NOSCROLL",
+          "states": [
+            {
+              "stateId": 0,
+              "stateName": "Common",
+              "properties": [
+]
+            },
+            {
+              "stateId": 1,
+              "stateName": "NORMAL",
+              "properties": [
+]
+            },
+            {
+              "stateId": 2,
+              "stateName": "HOT",
+              "properties": [
+]
+            },
+            {
+              "stateId": 3,
+              "stateName": "FOCUSED",
+              "properties": [
+]
+            },
+            {
+              "stateId": 4,
+              "stateName": "DISABLED",
+              "properties": [
+]
+            }
+          ]
+        },
+        {
+          "partId": 7,
+          "partName": "EDITBORDER_HSCROLL",
+          "states": [
+            {
+              "stateId": 0,
+              "stateName": "Common",
+              "properties": [
+]
+            },
+            {
+              "stateId": 1,
+              "stateName": "NORMAL",
+              "properties": [
+]
+            },
+            {
+              "stateId": 2,
+              "stateName": "HOT",
+              "properties": [
+]
+            },
+            {
+              "stateId": 3,
+              "stateName": "FOCUSED",
+              "properties": [
+]
+            },
+            {
+              "stateId": 4,
+              "stateName": "DISABLED",
+              "properties": [
+]
+            }
+          ]
+        },
+        {
+          "partId": 8,
+          "partName": "EDITBORDER_VSCROL",
+          "states": [
+            {
+              "stateId": 0,
+              "stateName": "Common",
+              "properties": [
+]
+            },
+            {
+              "stateId": 1,
+              "stateName": "NORMAL",
+              "properties": [
+]
+            },
+            {
+              "stateId": 2,
+              "stateName": "HOT",
+              "properties": [
+]
+            },
+            {
+              "stateId": 3,
+              "stateName": "FOCUSED",
+              "properties": [
+]
+            },
+            {
+              "stateId": 4,
+              "stateName": "DISABLED",
+              "properties": [
+]
+            }
+          ]
+        },
+        {
+          "partId": 9,
+          "partName": "EDITBORDER_HVSCROLL",
+          "states": [
+            {
+              "stateId": 0,
+              "stateName": "Common",
+              "properties": [
+]
+            },
+            {
+              "stateId": 1,
+              "stateName": "NORMAL",
+              "properties": [
+]
+            },
+            {
+              "stateId": 2,
+              "stateName": "HOT",
+              "properties": [
+]
+            },
+            {
+              "stateId": 3,
+              "stateName": "FOCUSED",
+              "properties": [
+]
+            },
+            {
+              "stateId": 4,
+              "stateName": "DISABLED",
+              "properties": [
+]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "classId": 3,
+      "className": "ScrollBar",
+      "parts": [
+        {
+          "partId": 0,
+          "partName": "Common Properties",
+          "states": [
+            {
+              "stateId": 0,
+              "stateName": "Common",
+              "properties": [
+]
+            }
+          ]
+        },
+        {
+          "partId": 1,
+          "partName": "ARROWBTN",
+          "states": [
+            {
+              "stateId": 0,
+              "stateName": "Common",
+              "properties": [
+]
+            },
+            {
+              "stateId": 1,
+              "stateName": "UPNORMAL",
+              "properties": [
+]
+            },
+            {
+              "stateId": 2,
+              "stateName": "UPHOT",
+              "properties": [
+]
+            },
+            {
+              "stateId": 3,
+              "stateName": "UPPRESSED",
+              "properties": [
+]
+            },
+            {
+              "stateId": 4,
+              "stateName": "UPDISABLED",
+              "properties": [
+]
+            },
+            {
+              "stateId": 5,
+              "stateName": "DOWNNORMAL",
+              "properties": [
+]
+            },
+            {
+              "stateId": 6,
+              "stateName": "DOWNHOT",
+              "properties": [
+]
+            },
+            {
+              "stateId": 7,
+              "stateName": "DOWNPRESSED",
+              "properties": [
+]
+            },
+            {
+              "stateId": 8,
+              "stateName": "DOWNDISABLED",
+              "properties": [
+]
+            },
+            {
+              "stateId": 9,
+              "stateName": "LEFTNORMAL",
+              "properties": [
+]
+            },
+            {
+              "stateId": 10,
+              "stateName": "LEFTHOT",
+              "properties": [
+]
+            },
+            {
+              "stateId": 11,
+              "stateName": "LEFTPRESSED",
+              "properties": [
+]
+            },
+            {
+              "stateId": 12,
+              "stateName": "LEFTDISABLED",
+              "properties": [
+]
+            },
+            {
+              "stateId": 13,
+              "stateName": "RIGHTNORMAL",
+              "properties": [
+]
+            },
+            {
+              "stateId": 14,
+              "stateName": "RIGHTHOT",
+              "properties": [
+]
+            },
+            {
+              "stateId": 15,
+              "stateName": "RIGHTPRESSED",
+              "properties": [
+]
+            },
+            {
+              "stateId": 16,
+              "stateName": "RIGHTDISABLED",
+              "properties": [
+]
+            },
+            {
+              "stateId": 17,
+              "stateName": "UPHOVER",
+              "properties": [
+]
+            },
+            {
+              "stateId": 18,
+              "stateName": "DOWNHOVER",
+              "properties": [
+]
+            },
+            {
+              "stateId": 19,
+              "stateName": "LEFTHOVER",
+              "properties": [
+]
+            },
+            {
+              "stateId": 20,
+              "stateName": "RIGHTHOVER",
+              "properties": [
+]
+            }
+          ]
+        },
+        {
+          "partId": 2,
+          "partName": "THUMBBTNHORZ",
+          "states": [
+            {
+              "stateId": 0,
+              "stateName": "Common",
+              "properties": [
+]
+            },
+            {
+              "stateId": 1,
+              "stateName": "NORMAL",
+              "properties": [
+]
+            },
+            {
+              "stateId": 2,
+              "stateName": "HOT",
+              "properties": [
+]
+            },
+            {
+              "stateId": 3,
+              "stateName": "PRESSED",
+              "properties": [
+]
+            },
+            {
+              "stateId": 4,
+              "stateName": "DISABLED",
+              "properties": [
+]
+            },
+            {
+              "stateId": 5,
+              "stateName": "HOVER",
+              "properties": [
+]
+            }
+          ]
+        },
+        {
+          "partId": 3,
+          "partName": "THUMBBTNVERT",
+          "states": [
+            {
+              "stateId": 0,
+              "stateName": "Common",
+              "properties": [
+]
+            },
+            {
+              "stateId": 1,
+              "stateName": "NORMAL",
+              "properties": [
+]
+            },
+            {
+              "stateId": 2,
+              "stateName": "HOT",
+              "properties": [
+]
+            },
+            {
+              "stateId": 3,
+              "stateName": "PRESSED",
+              "properties": [
+]
+            },
+            {
+              "stateId": 4,
+              "stateName": "DISABLED",
+              "properties": [
+]
+            },
+            {
+              "stateId": 5,
+              "stateName": "HOVER",
+              "properties": [
+]
+            }
+          ]
+        },
+        {
+          "partId": 4,
+          "partName": "LOWERTRACKHORZ",
+          "states": [
+            {
+              "stateId": 0,
+              "stateName": "Common",
+              "properties": [
+]
+            },
+            {
+              "stateId": 1,
+              "stateName": "NORMAL",
+              "properties": [
+]
+            },
+            {
+              "stateId": 2,
+              "stateName": "HOT",
+              "properties": [
+]
+            },
+            {
+              "stateId": 3,
+              "stateName": "PRESSED",
+              "properties": [
+]
+            },
+            {
+              "stateId": 4,
+              "stateName": "DISABLED",
+              "properties": [
+]
+            },
+            {
+              "stateId": 5,
+              "stateName": "HOVER",
+              "properties": [
+]
+            }
+          ]
+        },
+        {
+          "partId": 5,
+          "partName": "UPPERTRACKHORZ",
+          "states": [
+            {
+              "stateId": 0,
+              "stateName": "Common",
+              "properties": [
+]
+            },
+            {
+              "stateId": 1,
+              "stateName": "NORMAL",
+              "properties": [
+]
+            },
+            {
+              "stateId": 2,
+              "stateName": "HOT",
+              "properties": [
+]
+            },
+            {
+              "stateId": 3,
+              "stateName": "PRESSED",
+              "properties": [
+]
+            },
+            {
+              "stateId": 4,
+              "stateName": "DISABLED",
+              "properties": [
+]
+            },
+            {
+              "stateId": 5,
+              "stateName": "HOVER",
+              "properties": [
+]
+            }
+          ]
+        },
+        {
+          "partId": 6,
+          "partName": "LOWERTRACKVERT",
+          "states": [
+            {
+              "stateId": 0,
+              "stateName": "Common",
+              "properties": [
+]
+            },
+            {
+              "stateId": 1,
+              "stateName": "NORMAL",
+              "properties": [
+]
+            },
+            {
+              "stateId": 2,
+              "stateName": "HOT",
+              "properties": [
+]
+            },
+            {
+              "stateId": 3,
+              "stateName": "PRESSED",
+              "properties": [
+]
+            },
+            {
+              "stateId": 4,
+              "stateName": "DISABLED",
+              "properties": [
+]
+            },
+            {
+              "stateId": 5,
+              "stateName": "HOVER",
+              "properties": [
+]
+            }
+          ]
+        },
+        {
+          "partId": 7,
+          "partName": "UPPERTRACKVERT",
+          "states": [
+            {
+              "stateId": 0,
+              "stateName": "Common",
+              "properties": [
+]
+            },
+            {
+              "stateId": 1,
+              "stateName": "NORMAL",
+              "properties": [
+]
+            },
+            {
+              "stateId": 2,
+              "stateName": "HOT",
+              "properties": [
+]
+            },
+            {
+              "stateId": 3,
+              "stateName": "PRESSED",
+              "properties": [
+]
+            },
+            {
+              "stateId": 4,
+              "stateName": "DISABLED",
+              "properties": [
+]
+            },
+            {
+              "stateId": 5,
+              "stateName": "HOVER",
+              "properties": [
+]
+            }
+          ]
+        },
+        {
+          "partId": 8,
+          "partName": "GRIPPERHORZ",
+          "states": [
+            {
+              "stateId": 0,
+              "stateName": "Common",
+              "properties": [
+]
+            },
+            {
+              "stateId": 1,
+              "stateName": "NORMAL",
+              "properties": [
+]
+            },
+            {
+              "stateId": 2,
+              "stateName": "HOT",
+              "properties": [
+]
+            },
+            {
+              "stateId": 3,
+              "stateName": "PRESSED",
+              "properties": [
+]
+            },
+            {
+              "stateId": 4,
+              "stateName": "DISABLED",
+              "properties": [
+]
+            },
+            {
+              "stateId": 5,
+              "stateName": "HOVER",
+              "properties": [
+]
+            }
+          ]
+        },
+        {
+          "partId": 9,
+          "partName": "GRIPPERVERT",
+          "states": [
+            {
+              "stateId": 0,
+              "stateName": "Common",
+              "properties": [
+]
+            },
+            {
+              "stateId": 1,
+              "stateName": "NORMAL",
+              "properties": [
+]
+            },
+            {
+              "stateId": 2,
+              "stateName": "HOT",
+              "properties": [
+]
+            },
+            {
+              "stateId": 3,
+              "stateName": "PRESSED",
+              "properties": [
+]
+            },
+            {
+              "stateId": 4,
+              "stateName": "DISABLED",
+              "properties": [
+]
+            },
+            {
+              "stateId": 5,
+              "stateName": "HOVER",
+              "properties": [
+]
+            }
+          ]
+        },
+        {
+          "partId": 10,
+          "partName": "SIZEBOX",
+          "states": [
+            {
+              "stateId": 0,
+              "stateName": "Common",
+              "properties": [
+]
+            },
+            {
+              "stateId": 1,
+              "stateName": "RIGHTALIGN",
+              "properties": [
+]
+            },
+            {
+              "stateId": 2,
+              "stateName": "LEFTALIGN",
+              "properties": [
+]
+            },
+            {
+              "stateId": 3,
+              "stateName": "TOPRIGHTALIGN",
+              "properties": [
+]
+            },
+            {
+              "stateId": 4,
+              "stateName": "TOPLEFTALIGN",
+              "properties": [
+]
+            },
+            {
+              "stateId": 5,
+              "stateName": "HALFBOTTOMRIGHTALIGN",
+              "properties": [
+]
+            },
+            {
+              "stateId": 6,
+              "stateName": "HALFBOTTOMLEFTALIGN",
+              "properties": [
+]
+            },
+            {
+              "stateId": 7,
+              "stateName": "HALFTOPRIGHTALIGN",
+              "properties": [
+]
+            },
+            {
+              "stateId": 8,
+              "stateName": "HALFTOPLEFTALIGN",
+              "properties": [
+]
+            }
+          ]
+        },
+        {
+          "partId": 11,
+          "partName": "SIZEBOXBKGND",
+          "states": [
+            {
+              "stateId": 0,
+              "stateName": "Common",
+              "properties": [
+]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "classId": 4,
+      "className": "DarkMode::TaskManager",
+      "parts": [
+        {
+          "partId": 0,
+          "partName": "Common Properties",
+          "states": [
+            {
+              "stateId": 0,
+              "stateName": "Common",
+              "properties": [
+]
+            }
+          ]
+        },
+        {
+          "partId": 1,
+          "partName": "ROW",
+          "states": [
+            {
+              "stateId": 0,
+              "stateName": "Common",
+              "properties": [
+]
+            }
+          ]
+        },
+        {
+          "partId": 2,
+          "partName": "COLUMNDIVIDER",
+          "states": [
+            {
+              "stateId": 0,
+              "stateName": "Common",
+              "properties": [
+]
+            }
+          ]
+        },
+        {
+          "partId": 3,
+          "partName": "HEATMAP_COLOR0",
+          "states": [
+            {
+              "stateId": 0,
+              "stateName": "Common",
+              "properties": [
+]
+            }
+          ]
+        },
+        {
+          "partId": 4,
+          "partName": "HEATMAP_COLOR1",
+          "states": [
+            {
+              "stateId": 0,
+              "stateName": "Common",
+              "properties": [
+]
+            }
+          ]
+        },
+        {
+          "partId": 5,
+          "partName": "HEATMAP_COLOR2",
+          "states": [
+            {
+              "stateId": 0,
+              "stateName": "Common",
+              "properties": [
+]
+            }
+          ]
+        },
+        {
+          "partId": 6,
+          "partName": "HEATMAP_COLOR3",
+          "states": [
+            {
+              "stateId": 0,
+              "stateName": "Common",
+              "properties": [
+]
+            }
+          ]
+        },
+        {
+          "partId": 7,
+          "partName": "HEATMAP_COLOR4",
+          "states": [
+            {
+              "stateId": 0,
+              "stateName": "Common",
+              "properties": [
+]
+            }
+          ]
+        },
+        {
+          "partId": 8,
+          "partName": "HEATMAP_COLOR5",
+          "states": [
+            {
+              "stateId": 0,
+              "stateName": "Common",
+              "properties": [
+]
+            }
+          ]
+        },
+        {
+          "partId": 9,
+          "partName": "HEATMAP_COLOR6",
+          "states": [
+            {
+              "stateId": 0,
+              "stateName": "Common",
+              "properties": [
+]
+            }
+          ]
+        },
+        {
+          "partId": 10,
+          "partName": "HEATMAP_COLOR7",
+          "states": [
+            {
+              "stateId": 0,
+              "stateName": "Common",
+              "properties": [
+]
+            }
+          ]
+        },
+        {
+          "partId": 11,
+          "partName": "HEATMAP_COLOR8",
+          "states": [
+            {
+              "stateId": 0,
+              "stateName": "Common",
+              "properties": [
+]
+            }
+          ]
+        },
+        {
+          "partId": 12,
+          "partName": "HEATMAP_CONTENTIONMARKER",
+          "states": [
+            {
+              "stateId": 0,
+              "stateName": "Common",
+              "properties": [
+]
+            }
+          ]
+        },
+        {
+          "partId": 13,
+          "partName": "HEATMAP_TEXT",
+          "states": [
+            {
+              "stateId": 0,
+              "stateName": "Common",
+              "properties": [
+]
+            }
+          ]
+        },
+        {
+          "partId": 14,
+          "partName": "RESOURCE_TITLE",
+          "states": [
+            {
+              "stateId": 0,
+              "stateName": "Common",
+              "properties": [
+]
+            }
+          ]
+        },
+        {
+          "partId": 15,
+          "partName": "RESOURCE_SUBTITLE",
+          "states": [
+            {
+              "stateId": 0,
+              "stateName": "Common",
+              "properties": [
+]
+            }
+          ]
+        },
+        {
+          "partId": 16,
+          "partName": "GROUPLABEL",
+          "states": [
+            {
+              "stateId": 0,
+              "stateName": "Common",
+              "properties": [
+]
+            }
+          ]
+        },
+        {
+          "partId": 17,
+          "partName": "STATICLABEL",
+          "states": [
+            {
+              "stateId": 0,
+              "stateName": "Common",
+              "properties": [
+]
+            }
+          ]
+        },
+        {
+          "partId": 18,
+          "partName": "STATICDATA",
+          "states": [
+            {
+              "stateId": 0,
+              "stateName": "Common",
+              "properties": [
+]
+            }
+          ]
+        },
+        {
+          "partId": 19,
+          "partName": "DYNAMICDATA",
+          "states": [
+            {
+              "stateId": 0,
+              "stateName": "Common",
+              "properties": [
+]
+            }
+          ]
+        },
+        {
+          "partId": 20,
+          "partName": "MEMORYBAR_AVAILABLE",
+          "states": [
+            {
+              "stateId": 0,
+              "stateName": "Common",
+              "properties": [
+]
+            }
+          ]
+        },
+        {
+          "partId": 21,
+          "partName": "MEMORYBAR_INUSE",
+          "states": [
+            {
+              "stateId": 0,
+              "stateName": "Common",
+              "properties": [
+]
+            }
+          ]
+        },
+        {
+          "partId": 22,
+          "partName": "MEMORYBAR_MODIFIED",
+          "states": [
+            {
+              "stateId": 0,
+              "stateName": "Common",
+              "properties": [
+]
+            }
+          ]
+        },
+        {
+          "partId": 23,
+          "partName": "MEMORYBAR_INUSE_SEPARATOR",
+          "states": [
+            {
+              "stateId": 0,
+              "stateName": "Common",
+              "properties": [
+]
+            }
+          ]
+        },
+        {
+          "partId": 24,
+          "partName": "COLUMNHEADERTEXT",
+          "states": [
+            {
+              "stateId": 0,
+              "stateName": "Common",
+              "properties": [
+]
+            }
+          ]
+        },
+        {
+          "partId": 25,
+          "partName": "CPU_HEATMAP_TEXT",
+          "states": [
+            {
+              "stateId": 0,
+              "stateName": "Common",
+              "properties": [
+]
+            }
+          ]
+        },
+        {
+          "partId": 26,
+          "partName": "CPU_HEATMAP_COLOR0",
+          "states": [
+            {
+              "stateId": 0,
+              "stateName": "Common",
+              "properties": [
+]
+            }
+          ]
+        },
+        {
+          "partId": 27,
+          "partName": "CPU_HEATMAP_COLOR1",
+          "states": [
+            {
+              "stateId": 0,
+              "stateName": "Common",
+              "properties": [
+]
+            }
+          ]
+        },
+        {
+          "partId": 28,
+          "partName": "CPU_HEATMAP_COLOR2",
+          "states": [
+            {
+              "stateId": 0,
+              "stateName": "Common",
+              "properties": [
+]
+            }
+          ]
+        },
+        {
+          "partId": 29,
+          "partName": "CPU_HEATMAP_COLOR3",
+          "states": [
+            {
+              "stateId": 0,
+              "stateName": "Common",
+              "properties": [
+]
+            }
+          ]
+        },
+        {
+          "partId": 30,
+          "partName": "CPU_HEATMAP_COLOR4",
+          "states": [
+            {
+              "stateId": 0,
+              "stateName": "Common",
+              "properties": [
+]
+            }
+          ]
+        },
+        {
+          "partId": 31,
+          "partName": "CPU_HEATMAP_COLOR5",
+          "states": [
+            {
+              "stateId": 0,
+              "stateName": "Common",
+              "properties": [
+]
+            }
+          ]
+        },
+        {
+          "partId": 32,
+          "partName": "CPU_HEATMAP_PARKED0",
+          "states": [
+            {
+              "stateId": 0,
+              "stateName": "Common",
+              "properties": [
+]
+            }
+          ]
+        },
+        {
+          "partId": 33,
+          "partName": "CPU_HEATMAP_PARKED1",
+          "states": [
+            {
+              "stateId": 0,
+              "stateName": "Common",
+              "properties": [
+]
+            }
+          ]
+        },
+        {
+          "partId": 34,
+          "partName": "CPU_HEATMAP_PARKED2",
+          "states": [
+            {
+              "stateId": 0,
+              "stateName": "Common",
+              "properties": [
+]
+            }
+          ]
+        },
+        {
+          "partId": 35,
+          "partName": "CPU_HEATMAP_PARKED3",
+          "states": [
+            {
+              "stateId": 0,
+              "stateName": "Common",
+              "properties": [
+]
+            }
+          ]
+        },
+        {
+          "partId": 36,
+          "partName": "CPU_HEATMAP_PARKED4",
+          "states": [
+            {
+              "stateId": 0,
+              "stateName": "Common",
+              "properties": [
+]
+            }
+          ]
+        },
+        {
+          "partId": 37,
+          "partName": "CPU_HEATMAP_PARKED5",
+          "states": [
+            {
+              "stateId": 0,
+              "stateName": "Common",
+              "properties": [
+]
+            }
+          ]
+        },
+        {
+          "partId": 38,
+          "partName": "CPU_HEATMAP_GRID_BORDER",
+          "states": [
+            {
+              "stateId": 0,
+              "stateName": "Common",
+              "properties": [
+]
+            }
+          ]
+        },
+        {
+          "partId": 39,
+          "partName": "CPU_HEATMAP_BLOCK_BORDER_R",
+          "states": [
+            {
+              "stateId": 0,
+              "stateName": "Common",
+              "properties": [
+]
+            }
+          ]
+        },
+        {
+          "partId": 40,
+          "partName": "CPU_HEATMAP_BLOCK_BORDER_B",
+          "states": [
+            {
+              "stateId": 0,
+              "stateName": "Common",
+              "properties": [
+]
+            }
+          ]
+        },
+        {
+          "partId": 41,
+          "partName": "COLHEADER_DIVIDER_COLOR1",
+          "states": [
+            {
+              "stateId": 0,
+              "stateName": "Common",
+              "properties": [
+]
+            }
+          ]
+        },
+        {
+          "partId": 42,
+          "partName": "COLHEADER_DIVIDER_COLOR2",
+          "states": [
+            {
+              "stateId": 0,
+              "stateName": "Common",
+              "properties": [
+]
+            }
+          ]
+        },
+        {
+          "partId": 43,
+          "partName": "CONTENTION_COLUMN_HEADER",
+          "states": [
+            {
+              "stateId": 0,
+              "stateName": "Common",
+              "properties": [
+]
+            },
+            {
+              "stateId": 1,
+              "stateName": "NORMAL",
+              "properties": [
+]
+            },
+            {
+              "stateId": 2,
+              "stateName": "HOT",
+              "properties": [
+]
+            }
+          ]
+        },
+        {
+          "partId": 44,
+          "partName": "CHARTLEGEND",
+          "states": [
+            {
+              "stateId": 0,
+              "stateName": "Common",
+              "properties": [
+]
+            }
+          ]
+        },
+        {
+          "partId": 45,
+          "partName": "COLUMNDIVIDERSELECTED",
+          "states": [
+            {
+              "stateId": 0,
+              "stateName": "Common",
+              "properties": [
+]
+            }
+          ]
+        },
+        {
+          "partId": 46,
+          "partName": "COLUMNDIVIDERHOT",
+          "states": [
+            {
+              "stateId": 0,
+              "stateName": "Common",
+              "properties": [
+]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
