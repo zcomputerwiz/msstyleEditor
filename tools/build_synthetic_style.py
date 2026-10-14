@@ -380,9 +380,11 @@ def generate_synthetic_style(out_dll_path, out_json_spec_path):
     add_prop(3602, "CONTENTMARGINS", 205, "MARGINS", 0, 1, 0, (2, 2, 2, 2))
     add_prop(3401, "OFFSET", 208, "POSITION", 0, 1, 0, (1, 1))
     add_prop(6000, "TRANSITIONDURATIONS", 211, "INTLIST", 0, 1, 0, [100, 200, 300])
+    add_prop(2420, "MINDPI1", 202, "INT", 0, 1, 0, 96)
+    add_prop(2421, "MINDPI2", 202, "INT", 0, 1, 0, 144)
     add_prop(3001, "IMAGEFILE", 206, "FILENAME", 0, 1, 0, 101) # IMAGE 101 (96 DPI)
-    add_prop(3002, "IMAGEFILE1", 206, "FILENAME", 0, 1, 0, 104) # IMAGE 104 (120 DPI)
-    add_prop(3003, "IMAGEFILE2", 206, "FILENAME", 0, 1, 0, 105) # IMAGE 105 (144 DPI)
+    add_prop(3002, "IMAGEFILE1", 206, "FILENAME", 0, 1, 0, 104) # IMAGE 104 (96 DPI: 20x20)
+    add_prop(3003, "IMAGEFILE2", 206, "FILENAME", 0, 1, 0, 105) # IMAGE 105 (144 DPI: 24x24)
     add_prop(4012, "IMAGESELECTTYPE", 200, "ENUM", 0, 1, 0, 2) # DPI
     add_prop(4014, "TRUESIZESCALINGTYPE", 200, "ENUM", 0, 1, 0, 1) # DPI
     add_prop(801, "CAPTIONFONT", 210, "FONT", 0, 1, 0, 501) # String 501
@@ -400,6 +402,9 @@ def generate_synthetic_style(out_dll_path, out_json_spec_path):
     add_prop(3001, "IMAGEFILE", 206, "FILENAME", 0, 1, 3, 103)
 
     # Class 1: Window
+    # Part 1: WP_CAPTION, State 0 (Common)
+    add_prop(4001, "BGTYPE", 200, "ENUM", 1, 1, 0, 0) # IMAGEFILE
+    add_prop(4004, "SIZINGTYPE", 200, "ENUM", 1, 1, 0, 1) # STRETCH
     # Part 1: WP_CAPTION, State 1 (FS_ACTIVE)
     add_prop(8000, "ATLASIMAGE", 213, "DISKSTREAM", 1, 1, 1, 1) # STREAM 1
     add_prop(8001, "ATLASINPUTIMAGE", 201, "STRING", 1, 1, 1, "test_atlas.png")

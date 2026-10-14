@@ -158,6 +158,28 @@
       ]
     },
     {
+      "nameId": 2420,
+      "name": "MINDPI1",
+      "typeId": 202,
+      "typeName": "INT",
+      "classId": 0,
+      "className": "Button",
+      "partId": 1,
+      "stateId": 0,
+      "value": 96
+    },
+    {
+      "nameId": 2421,
+      "name": "MINDPI2",
+      "typeId": 202,
+      "typeName": "INT",
+      "classId": 0,
+      "className": "Button",
+      "partId": 1,
+      "stateId": 0,
+      "value": 144
+    },
+    {
       "nameId": 3001,
       "name": "IMAGEFILE",
       "typeId": 206,
@@ -300,6 +322,28 @@
       "partId": 1,
       "stateId": 3,
       "value": 103
+    },
+    {
+      "nameId": 4001,
+      "name": "BGTYPE",
+      "typeId": 200,
+      "typeName": "ENUM",
+      "classId": 1,
+      "className": "Window",
+      "partId": 1,
+      "stateId": 0,
+      "value": 0
+    },
+    {
+      "nameId": 4004,
+      "name": "SIZINGTYPE",
+      "typeId": 200,
+      "typeName": "ENUM",
+      "classId": 1,
+      "className": "Window",
+      "partId": 1,
+      "stateId": 0,
+      "value": 1
     },
     {
       "nameId": 8000,
