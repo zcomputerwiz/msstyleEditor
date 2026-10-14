@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Runtime.InteropServices;
 
 namespace libmsstyle
@@ -70,6 +70,12 @@ namespace libmsstyle
 
         [DllImport("kernel32.dll", EntryPoint = "EnumResourceNamesExW", SetLastError = true, CharSet = CharSet.Unicode)]
         public static extern bool EnumResourceNamesEx(IntPtr hModule, uint lpType, [MarshalAs(UnmanagedType.FunctionPtr)] EnumResNameDelegate lpEnumFunc, IntPtr lParam, EnumResourceFlags dwFlags, ushort langId);
+
+        [DllImport("kernel32.dll", EntryPoint = "EnumResourceNamesExW", SetLastError = true, CharSet = CharSet.Unicode)]
+        public static extern bool EnumResourceNamesEx(IntPtr hModule, string lpType, [MarshalAs(UnmanagedType.FunctionPtr)] EnumResNameDelegate lpEnumFunc, IntPtr lParam, EnumResourceFlags dwFlags, ushort langId);
+
+        [DllImport("kernel32.dll", EntryPoint = "EnumResourceNamesW", SetLastError = true, CharSet = CharSet.Unicode)]
+        public static extern bool EnumResourceNames(IntPtr hModule, string lpType, [MarshalAs(UnmanagedType.FunctionPtr)] EnumResNameDelegate lpEnumFunc, IntPtr lParam);
 
 
         [System.Flags]

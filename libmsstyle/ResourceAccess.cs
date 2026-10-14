@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -38,6 +38,22 @@ namespace libmsstyle
             byte[] managedArray = new byte[size];
             Marshal.Copy(data, managedArray, 0, (int)size);
             return managedArray;
+        }
+
+        public static List<int> GetResourceIds(IntPtr moduleHandle, string type)
+        {
+            var list = new List<int>();
+            Win32Api.EnumResNameDelegate callback = (hMod, lpType, lpName, lParam) =>
+            {
+                if (((long)lpName >> 16) == 0)
+                {
+                    list.Add(lpName.ToInt32());
+                }
+                return true;
+            };
+            Win32Api.EnumResourceNames(moduleHandle, type, callback, IntPtr.Zero);
+            list.Sort();
+            return list;
         }
 
 

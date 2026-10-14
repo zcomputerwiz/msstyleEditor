@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -14,6 +14,17 @@ namespace libmsstyle
         public string Path
         {
             get { return m_stylePath; }
+        }
+
+        public IntPtr ModuleHandle
+        {
+            get { return m_moduleHandle; }
+        }
+
+        public List<int> GetResourceIds(string type)
+        {
+            if (m_moduleHandle == IntPtr.Zero) return new List<int>();
+            return ResourceAccess.GetResourceIds(m_moduleHandle, type);
         }
 
         private Platform m_platform;
